@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
-import {Place} from './place';
+import { Place } from './place';
 import { PlaceDataService } from './place-data.service';
 
 describe('PlaceDataService', () => {

@@ -1,3 +1,40 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+	<div class="header clearfix">
+		<nav>
+			<ul class="nav nav-pills float-right">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Places <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">My Votes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">All Votes</a>
+				</li>
+			</ul>
+		</nav>
+		<h3 class="text-muted">RestaurantApp</h3>
+	</div>
+
+	<div class="jumbotron">
+		<h1 class="lead">Please choose below the restaurant you would like to lunch today</h1>
+
+
+		<fieldset class="form-group">
+			<legend>Places</legend>
+			<div class="form-check" ng-repeat="place in Places ">
+				<label class="form-check-label">
+					<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					Option one is this and that&mdash;be sure to include why it's great
+				</label>
+			</div>
+		</fieldset>
+		<p><a class="btn btn-lg btn-success" href="#" role="button">Choose</a></p>
+	</div>
+
+	
+	<footer class="footer">
+		<p>&copy; RestaurantApp 2017</p>
+	</footer>
+
+</div> 
