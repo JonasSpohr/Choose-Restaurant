@@ -1,0 +1,14 @@
+fieldset {
+	text-align: center;	
+}
+
+fieldset button {
+	margin-top: 20px;
+}
+
+.no-items h1 {
+	font-size: 18px;
+	padding: 10px;
+	border-bottom: 0px;
+}
+

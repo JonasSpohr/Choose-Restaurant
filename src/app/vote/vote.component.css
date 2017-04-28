@@ -1,0 +1,12 @@
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron p {	
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+fieldset legend {
+	padding-bottom: 20px;
+}

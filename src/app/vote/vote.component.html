@@ -1,0 +1,14 @@
+<div class="jumbotron">
+	<p class="lead">Please choose below your favourite restaurant for today</p>
+
+	<fieldset class="form-group">
+		<legend>Places available</legend>
+		<div class="form-check" *ngFor="let place of places">
+			<label class="form-check-label">
+				<input type="radio" class="form-check-input" name="optValue" value="{{place._id}}">
+				{{place.name}}
+			</label>
+		</div>
+	</fieldset>
+	<button type="submit" class="btn btn-primary">Vote</button>
+</div> 
